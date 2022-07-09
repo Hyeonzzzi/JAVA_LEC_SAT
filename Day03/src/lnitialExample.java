@@ -16,10 +16,28 @@ public class lnitialExample {
 	
 	public static void main(String[] args) {
 	
-		int a = 10;
+		int a = 10; // 할당/대입
 		System.out.println(a);
 		
+		// = += -= *= /= %=
+		
+		int b = 100; // 단순 할당 (100을 입력)
+		b += 10; // b = b + 10;
+		System.out.println(b);	//<-- 110
+		b -= 10; // b = b - 10;
+		System.out.println(b); //<-- 100
+		b *= 100; // b = b * 100;
+		System.out.println(b); //<-- 10000
+		b /= 100; // b = b / 100;
+		System.out.println(b); //<-- 100
+		b %= 100; // b = b % 100;
+		System.out.println(b); //<-- 0
+		
+		
+		
 	
+		
+		
 	}
 
 }
