@@ -30,6 +30,9 @@ public class VariableCasting {
 		String tel = "010-2222-3333" ;
 		String tel2 = "01022223333";
 		
+		//--- 실수 -> 정수로 형변환을 하는 경우는 
+		//--- 소숫점 이하 버림.
+	
 		double aaa =3.541562;
 		int bbb = (int)aaa;
 		System.out.println("double to float:" + bbb);
